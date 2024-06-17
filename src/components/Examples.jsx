@@ -31,7 +31,7 @@ export default function () {
     return (
         <Section title="Examples" id="examples">
             <Tabs
-                buttonContainer="menu"  // we pass default attributes between "" and custom attributes between {}
+                ButtonContainer="menu"  // we pass default attributes between "" and custom attributes between {}
                 buttons={
                     <>
                         <TabButton

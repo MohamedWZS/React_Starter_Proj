@@ -1,7 +1,7 @@
-export default function Tabs({ children, buttons, buttonContainer }) {
+export default function Tabs({ children, buttons, ButtonContainer="menu" }) {
     // because the prop is passed beginning with lowercase. to make react recognize it as a custom attribute we needed to put it in a var.
     // we can avoid that by passing the prop beginning with uppercase.
-    const ButtonContainer = buttonContainer; 
+    // const ButtonContainer = buttonContainer; 
 
     return <>
         <ButtonContainer>
